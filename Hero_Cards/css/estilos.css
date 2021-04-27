@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --bg-color: #1CD1B0;
+    --negro: #000;
+    --card-bg: #F3F3F3;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: roboto, sans-serif;
+}
+
+.descuento{
+    background-color: var(--bg-color);
+    left: 62.57px;
+    top: 4px;
+    font-family: Roboto;
+    font-size: 24px;
+    color: var(--negro);
+}
+section{
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    padding: 0 170px;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.card{
+    height: 500px; 
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    background-color: var(--card-bg);
+    border-radius: 20px 20px 0 0;
+    border: 1px solid var(--card-bg);
+}
+
+.card-fondo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+
+.bg-batman{
+    background-image: url(../img/bg-batman.jpg);
+}
+.bg-wonderw{
+    background-image: url(../img/bg-wonderw.jpg);
+}
+.bg-superman{
+    background-image: url(../img/bg-superman.jpg);
+}
+.bg-hquinn{
+    background-image: url(../img/bg-hquinn.jpg);
+}
+
+.corazon{
+    color:red;
+    margin: 15px
+}
+.card-texto{
+    text-align: center;
+    padding: 15px;
+    margin-top: 70px;
+}
+.card-texto p{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: top;
+    position: relative;
+}
+.boton{
+    background-color: #1CD1B0;
+    text-decoration: none;
+    color: var(--card-bg);
+   padding: 10px 20px;
+   position: relative;
+   margin-top: 30px;
+}
